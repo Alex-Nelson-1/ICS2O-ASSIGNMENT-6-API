@@ -42,3 +42,7 @@ img {
   float: right;
   margin-right: 15px;
 }
+
+.output {
+    color: #ff0000;
+}
