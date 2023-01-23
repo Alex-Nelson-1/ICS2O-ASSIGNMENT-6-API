@@ -17,7 +17,7 @@ if (navigator.serviceWorker) {
  * This function displays a different quote evry time the page is reloaded.
  */
 
-const getWeather = async (URLAddress) => {
+const getQuote = async (URLAddress) => {
   try {
 
     //Code to get Api
@@ -45,4 +45,4 @@ const getWeather = async (URLAddress) => {
 }
 
 //Api link
-getWeather("https://type.fit/api/quotes")
+getQuote("https://type.fit/api/quotes")
