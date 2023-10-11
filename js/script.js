@@ -27,7 +27,7 @@ const getQuote = async (URLAddress) => {
 
     //Expression randomizing the Quotes
     if (jsonData) {
-        const randomizer = Math.floor(Math.random() * 1642)
+        const randomizer = Math.floor(Math.random() * 16)
 
       //Variables for quotes and author
         const quote = jsonData[randomizer].text
